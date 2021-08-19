@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxX;
+    font-family: "Poppins", sans-serif;
+   
+}
+h1,h2,h3,h4,h5,h6 {
+color:#333333;
+
+}
+
+
+
+
+
+:root{
+    --bgcolor: #f1f5 fd;
+    --primary-color: #6f5de7;
+    --text-color: #828286;
+    --main-text-color: #333333; 
+
+}
+html{
+font-size: 62.5%;
+
+
+}
+
+ /* ************************** Navbar style sheet ************** */
+.navbar-bg{
+/* background-color: rgb(161 139 139 / 36%); */
+/* background-color:#cfd7e5; */
+background-color:rgb(194 185 195 / 65%);
+padding: 2rem 0;
+z-index: 99;
+position: relative;
+
+}
+
+.navbar-brand{
+font-size: 2.5rem;
+
+}
+ .navbar li{
+padding:0 2rem;
+
+ }
+.navbar li a{
+font-size:1.7rem;
+font-weight: lighter;
+position: relative;
+}
+
+.navbar li a:hover{
+color: var(--primary-color)! important;   
+text-shadow: 0 0.2rem 0.3rem rgba(183,171,255,0.5);
+}
+
+.btn-style{
+width:12rem;
+height: 4rem;
+border-radius: 2rem;
+color: white;
+background-color: var(--primary-color);
+text-transform: capitalize;
+font-size: 1.3rem;
+}
+
+.btn-style:first-child{
+    margin-right:2rem;
+
+}
+.btn-style:hover{
+border:0.1rem solid  var(--primary-color);
+background-color: transparent;
+color:var(--primary-color);
+box-shadow:0 0.2rem 0.5rem rgba(183,171,255,0.5);
+}
+header {
+background-color:#cfd7e5;
+min-height:100vh;
+width:100%;
+}
+
+
+.main-hero-container{
+    height:80vh;
+    display: flex;
+
+}
+
+.main-hero-container h1 {
+    text-transform: capitalize;
+font-weight: bolder;
+
+}
+.main-hero-container h3 {
+    text-transform: capitalize;
+font-weight: lighter;
+
+}
+
+
+.main-hero-para{
+font-size:1.5rem;
+color: var(--text-color);
+margin: 3rem 0 5rem 0;
+font-weight: lighter;
+/* width:75%; */
+}
+.main-hero-section-images img{
+width:60%;
+height:75%;
+margin-top: 10rem;
+box-shadow: 0 0 0.8rem rgba(0, 0, 0, 25);
+border-radius: 1.5rem;
+position: absolute;
+}
+
+.main-herosection-images img{
+width:100%;
+height:81%;
+margin-top: 10rem;
+box-shadow: 0 0.8rem 0.8rem black;
+border-radius:1.5rem;
+position: absolute;
+bottom:5%;
+
+}
+.main-herosection-images{
+    position: relative;
+}
+
+.main-herosection-images .main-hero-img2{
+position: absolute;
+width:50%;
+height:40%;
+left:55%;
+top: -20%;
+box-shadow: 0.8rem 0 0.8rem black;
+}
+
+.input-group{
+position:  relative !important;
+
+}
+
+.form-control-text{
+position:absolute;
+height: 4rem;
+border:2px solid grey;
+padding-left: 1.5rem !important;
+outline-style: none;
+font-weight: bolder;
+font-size: 1.5rem;   
+}
+.input-group-button{
+text-transform: capitalize;
+position: absolute;
+left: 60%;
+top: -2%;
+color: azure;
+background-color:var(--primary-color);
+height: 4rem;
+width:20%;
+border-radius: 2rem !important;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.2rem;
+}
+
+/* ********************************work section*******************8 */
+.work-container{
+width:80%;
+padding: 5rem;
+box-shadow:0 .4rem 1.5rem rgba(0,0,0,0.2);
+margin-top: -7rem;
+background-color:#fff;
+border-radius:1rem;
+}
+.work-container .main-heading{
+font-weight:bolder;
+font-size: 3rem;
+margin-bottom: 10rem;
+word-spacing: 1rem;
+}
+.work-container-subdiv{
+padding:  0 6rem;
+
+}
+.work-container .sub-heading{
+font-size: 2rem;
+font-weight: normal;
+}
+.fontawesome-style{
+font-size: 2.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--primary-color);
+width:6rem;
+height: 6rem;
+border-radius: 50%;
+background-color:var(--bgcolor);
+
+}
+.our-services img{
+    /* width: 70%;
+height: 30rem; */
+width: 90%;
+height:40rem;
+margin-top:5rem;
+box-shadow: rgba(0, 0, 0, 0.534)0px 1rem 1.8rem;
+border-radius:2rem;
+}
+.our-services .mini-title{
+text-transform: uppercase;
+font-weight: normal;
+margin:3rem 0;
+text-align: left;
+font-size:1.5rem;
+}
+.our-services .main-heading{
+text-transform: capitalize;
+font-weight: bolder;
+}
+
+.our-services-info{
+margin: top 4rem;
+
+}
+.our-services .our-services-number{
+width:3rem;
+height:3rem;
+border-radius:50%;
+background-color: transparent;
+border:0.1rem solid var(--primary-color);
+font-size:1.5rem;
+color: var(--primary-color);
+display:grid;
+place-items: center;
+}
+
+.our-services-data{
+    padding-left: 2rem;
+}
+.our-services .our-services-data p{
+margin:1rem 0;
+
+}
+.common-section{
+margin: 5rem;
+
+}
+
+/* second section */
+.our-services-rightside{
+padding-left:8rem;
+
+}
+.our-services-rightside .main-heading{
+    padding: 3rem;;
+}
+.sam-baby{
+background-color: #cfd7e5;
+
+}
+#root{
+    background-color: #cfd7e5;    
+}
+.service-main-container{
+margin-top:5rem;
+padding: 5rem 0;
+}
+.service-main-container .main-heading{
+margin: 3rem 0;
+
+}
+.main-heading:hover{
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.work-container-subdiv{
+box-shadow: 0 0.2rem 0.4rem rgba(92, 70, 70, 0.15);
+}
+.work-container-subdiv:hover{
+background-color:rgb(212, 226, 235);
+cursor:pointer;
+border-radius:50%;
+
+}
+
+.work-container-subdiv .main-hero-para{
+    color:black;
+}
+
+
+.service-main-container .work-container-subdiv  .fontawesome-style{
+margin: 2rem 0;
+text-align: left;
+}
+@media (min-width: 1400px) {
+.service-container .col-xxl-4 {
+flex: 0 0 auto;
+width:30% !important;
+margin:auto;
+}
+
+}
+
+@media (min-width: 992px) {
+    .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width:30% !important;
+    margin:2.5rem auto;
+    }
+    
+    }
+
+    .service-container{
+        width: 80%;
+        padding: 3rem;
+        box-shadow: 0 2rem 2.5rem rgb(0 0 0 / 20%);
+        margin-top: -5rem;
+        background-color: #fff;
+        border-radius: 1rem;
+    }
+/* contact us  */
+
+.contactus-section{
+margin: 15rem 0;
+
+}
+.contact-input-feild{
+margin-bottom: 4rem;
+
+}
+.contact-leftside img{
+min-width: 80%;                                                            
+max-height: 30rem;
+height: auto;
+}
+
+.form-control{
+    height:4rem;
+    /* border-radius: 2rem; */
+}
+ .contact-rightside form .form-control{
+border: 1px solid #ced4da;
+-webkit-appearance: none; 
+height: 5rem;
+border-radius: 2rem;
+font-size: 1.6rem;
+padding-left: 1rem;
+font-weight: lighter; 
+ }
+.contact-rightside form .form-check-input{
+ width: 2rem;
+height: 2rem;
+} 
+
+.form-check-style{
+    margin: 1.5rem 0.6rem;
+}
+.contact-rightside form .main-hero-para{
+font-size: 1.5rem;
+position: relative;
+top:-5rem;
+left: 2rem;
+}
+.contact-rightside form .btn-style{
+position: relative;
+bottom: 10rem;
+}
